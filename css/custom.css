@@ -40,12 +40,26 @@
   color: #212929;
 }
 
+.navbar.navbar-default.navbar-fixed-top.topnav{
+  border-bottom: 20px solid #205B8D;
+}
 
+.hr{
+}
 
+.contact{
+  padding-top: 50px;
+}
 .btn-default {
   color: #f8f8f8;
   border-color: #fff;
   border-width: medium;
+  width: 200px;
+}
+
+.btn-center{
+  margin-top: 40px;
+  align-content: center;
 }
 
 .network-name{
