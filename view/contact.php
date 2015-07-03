@@ -46,9 +46,10 @@
             <div class="col-lg-12">
               <hr>
               <h1 class = "intro-text text-center">Call ARCH For Immediate Help: 318-779-3066</h1>
-              <h3 class = "intro-text text-center">Staff Hot Line is Open 24/7 to help in whatever way possible.</h3>
+              <h3 class = "intro-text text-center">Staff Are Available 24/7 To Help Anyone Struggling With Addiction</h3>
               <hr>
-              <h1 class="intro-text text-center">Feel Free to Send a Message With Any Questions About Our Program</h1>
+              <br>
+              <h2 class="intro-text text-center">Or send a message with any questions about our halfway house services</h2>
               <hr>
               <form role="form" action="../landing/message-landing.php" method = "post"
                     onsubmit = "return onContactSubmit()">
