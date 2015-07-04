@@ -2,36 +2,34 @@
 <html lang="en">
 
   <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="ARCH of Florida Halfway Houses - Access AA, NA, and Celebrate Recovery meeting directories for
+                                      all of Palm Beach County">
+    <meta name="author" content="ARCH of Florida">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
 
-    <title>ARCH Opportunities</title>
+    <link rel="icon" type="image/x-icon" href="../img/house-favicon.png"/>
+
+    <title>A.R.C.H. of Florida | West Palm Beach</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="../css/landing-page.css" rel="stylesheet">
-
     <!-- Custom Fonts -->
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
     <link href="../css/custom.css" rel="stylesheet">
-    
-    
   </head>
 
+  
   <body>
-
     <?php
-require_once('../templates/navbar.html');
+      require_once('../templates/navbar.html');
     ?>
-
+    <a name="top"></a>
     <div class="container contact">
 
       <h2 class="section-heading contact text-center">ARCH Believes in Regular 12 Step Meeting Attendance</h2>
@@ -60,89 +58,73 @@ require_once('../templates/navbar.html');
               <p class="text-center">Click image to view Alcoholics Anonymous History</p>
             </div>
           </div>
-
         </div>
-        <!-- /.container -->
-
       </div>
-    </div>
-    <!-- /.content-section-a -->
+      
 
-    <div class="content-section-b">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">NA Meetings</h2>
-            <p class="lead">Narcotics Anonymous has an equal presence in Palm Beach County and also offers a solution to
-              help the the recovering addict. <a href="www.http://palmcoastna.org/">Find local NA Meetings</a> and discover the 
-              tools we need to recover
-              from addiction one day at a time.</p>
-            <p class="lead">Narcotics Anonymous originated in 1953 as an alternative to Alcoholics Anonymous. Guided by the same
-              principles as Alcoholics Anonymous, NA has also proven to be an effective 12 Step Program of Action that has led
-              millions to long term freedom from active drug addiction. NA produced it's own literature and altered the verbage
-              of the 12 Steps to better suit the recovering addict that can not identify with alcoholism.</p>
-          </div>
-          <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-            <a href="http://www.recovery.org/topics/about-the-narcotics-anonymous-na-12-step-recovery-program/">
-              <img class="img-responsive" src="../img/narcotics-anonymous-addict-helps-addict.jpg" 
-                   alt="Narcotics Anoynmous One Addict Helping Another Addict Is Without Parallel"></a>
-            <p class="text-center">Click image to view Narcotics Anonymous Facts</p>
+      <div class="content-section-b">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">NA Meetings</h2>
+              <p class="lead">Narcotics Anonymous has an equal presence in Palm Beach County and also offers a solution to
+                help the the recovering addict. <a href="www.http://palmcoastna.org/">Find local NA Meetings</a> and discover the 
+                tools we need to recover
+                from addiction one day at a time.</p>
+              <p class="lead">Narcotics Anonymous originated in 1953 as an alternative to Alcoholics Anonymous. Guided by the same
+                principles as Alcoholics Anonymous, NA has also proven to be an effective 12 Step Program of Action that has led
+                millions to long term freedom from active drug addiction. NA produced it's own literature and altered the verbage
+                of the 12 Steps to better suit the recovering addict that can not identify with alcoholism.</p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+              <a href="http://www.recovery.org/topics/about-the-narcotics-anonymous-na-12-step-recovery-program/">
+                <img class="img-responsive" src="../img/narcotics-anonymous-addict-helps-addict.jpg" 
+                     alt="Narcotics Anoynmous One Addict Helping Another Addict Is Without Parallel"></a>
+              <p class="text-center">Click image to view Narcotics Anonymous Facts</p>
+            </div>
           </div>
         </div>
-
       </div>
-      <!-- /.container -->
 
-    </div>
-    <!-- /.content-section-b -->
-
-    <div class="content-section-a">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-5 col-sm-6">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Church and Religion</h2>
-            <p class="lead">12 Step Fellowships strive to help it's members 
-              develop a spiritual way of living and some form of God 
-              consciousness that will enable them to recover from their
-              addiction. 12 Step literature and groups make clear that one's
-              participation in any organized religion is not required, that 
-              we only need to be open minded to spiritual principles in order to
-              fully recover. Even still, many do come to find religion
-              as a helpful tool that does nothing but strengthen their overall
-              program of recovery. Feel free
-              to <a href="http://www.churches-in.com/FL/West+Palm+Beach/">Find
-              A Church Nearby</a> and remember to have an open mind</p>
-          </div>
-          <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-            <a href="http://crfumcboca.org/areameetings.html">
-              <img class="img-responsive" src="../img/in-god-we-trust-penny.jpg"
-                 alt="In God We Trust - Religion and Spirituality during the recovery process"></a>
-            <p class="text-center">Click the image to view Palm Beach County's Celebrate Recovey Meeting Schedule.
-            Celebrate Recovey is a church based 12 Step program of action that follows the same principles as AA
-            and NA while incorporating religious literature.</p>
+      
+      <div class="content-section-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">Church and Religion</h2>
+              <p class="lead">12 Step Fellowships strive to help it's members 
+                develop a spiritual way of living and some form of God 
+                consciousness that will enable them to recover from their
+                addiction. 12 Step literature and groups make clear that one's
+                participation in any organized religion is not required, that 
+                we only need to be open minded to spiritual principles in order to
+                fully recover. Even still, many do come to find religion
+                as a helpful tool that does nothing but strengthen their overall
+                program of recovery. Feel free
+                to <a href="http://www.churches-in.com/FL/West+Palm+Beach/">Find
+                A Church Nearby</a> and remember to have an open mind</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+              <a href="http://crfumcboca.org/areameetings.html">
+                <img class="img-responsive" src="../img/in-god-we-trust-penny.jpg"
+                     alt="In God We Trust - Religion and Spirituality benefits during the recovery process"></a>
+              <p class="text-center">Click the image to view Palm Beach County's Celebrate Recovey Meeting Schedule.
+                Celebrate Recovey is a church based 12 Step program of action that follows the same principles as AA
+                and NA while incorporating religious literature.</p>
+            </div>
           </div>
         </div>
-
       </div>
-      <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
+      <div class="row"><a href="#top">Back to Top</a><br></div>
     </div>
 
-  <?php 
-require_once('../templates/footer.html');
-  ?>
 
+    <?php 
+      require_once('../templates/footer.html');
+    ?>
   </body>
-
 </html>
