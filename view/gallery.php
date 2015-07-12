@@ -22,50 +22,56 @@
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="../css/custom.css" rel="stylesheet">
+    <?php require_once('../templates/facebook-google-plugin.html'); ?>
   </head>
 
-  
+
   <body>
     <?php
-      require_once('../templates/navbar.html');
+require_once('../templates/navbar.html');
     ?>
     <a name="top"></a>
     <div class="container contact">
-      <div class="col-lg-10 text-center">
-        <div id="carousel-example-generic" class="carousel slide">
-          <!-- Indicators -->
-          <ol class="carousel-indicators hidden-xs">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-          </ol>
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-              <img class="img-responsive img-full" src="../img/bedroom-1.jpg" alt="Green Grass and Flowers">
+      <div class="row contact">
+        <div class="col-lg-10 text-center">
+          <div id="carousel-example-generic" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators hidden-xs">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img class="img-responsive img-full" src="../img/bedroom-1.jpg" alt="Green Grass and Flowers">
+              </div>
+              <div class="item">
+                <img class="img-responsive img-full" src="../img/house-1.jpg" alt="Landscape Design">
+              </div>
+              <div class="item">
+                <img class="img-responsive img-full" src="../img/bedroom-2.jpg" alt="Tree and Mulch Design">
+              </div>
+              <div class="item">
+                <img class="img-responsive img-full" src="../img/game-room.jpg" alt="Lawn Care and Maintenance">
+              </div>
+              <div class="item">
+                <img class="img-responsive img-full" src="../img/west-palm-beach-water.jpg" alt="Flower Bed Design">
+              </div>
             </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="../img/house-1.jpg" alt="Landscape Design">
-            </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="../img/bedroom-2.jpg" alt="Tree and Mulch Design">
-            </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="../img/game-room.jpg" alt="Lawn Care and Maintenance">
-            </div>
-            <div class="item">
-              <img class="img-responsive img-full" src="../img/west-palm-beach-water.jpg" alt="Flower Bed Design">
-            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
           </div>
-          <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="icon-prev"></span>
-          </a>
-          <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="icon-next"></span>
-          </a>
+        </div>
+        <div class="col-lg-2">
+          <h3 class="text-center">Text Placeholder</h3>
         </div>
       </div>
     </div>
@@ -77,7 +83,7 @@
       })
     </script>
     <?php 
-      require_once('../templates/footer.html');
+require_once('../templates/footer.html');
     ?>
   </body>
 </html>

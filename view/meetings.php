@@ -22,12 +22,13 @@
     <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="../css/custom.css" rel="stylesheet">
+    <?php require_once('../templates/facebook-google-plugin.html'); ?>
   </head>
 
-  
+
   <body>
     <?php
-      require_once('../templates/navbar.html');
+require_once('../templates/navbar.html');
     ?>
     <a name="top"></a>
     <div class="container contact">
@@ -60,7 +61,7 @@
           </div>
         </div>
       </div>
-      
+
 
       <div class="content-section-b">
         <div class="container">
@@ -88,8 +89,31 @@
         </div>
       </div>
 
-      
       <div class="content-section-a">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+              <hr class="section-heading-spacer">
+              <div class="clearfix"></div>
+              <h2 class="section-heading">CA Meetings</h2>
+              <p class="lead">Cocaine Anonymous is a rapidly growing fellowship available to anyone suffering with drug and alcohol addiction. Originally formed in Los Angeles in 1982, Cocained Anonymous borrows the directons to the 12 steps from the Big Book of Alcoholics Anonymous, because it works. CA also has it's own literature "Hope, Faith, and Courage" that can be found at most meetings or 
+                <a href="http://www.ca.org/literature.html">purchased online.</a> We encourage you to try various meetings
+                until you find the right group for you. There are plenty of CA groups in the area, be sure to 
+                <a href="http://caflorida.org/southeast-florida-district/">
+                  check out a local CA Meeting.</a></p>
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+              <a href="http://www.ca-online.org/online-service-area/">
+                <img class="img-responsive" src="../img/ca-meeting-medallion.jpg" 
+                     alt="Cocaine anonymous - We're here and we're free"></a>
+              <p class="text-center">Click on the image for more information on Cocaine Anonymous and how it
+                originated.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section-b">
         <div class="container">
           <div class="row">
             <div class="col-lg-5 col-sm-6">
@@ -119,12 +143,16 @@
           </div>
         </div>
       </div>
+
+
+
+
       <div class="row"><a href="#top">Back to Top</a><br></div>
     </div>
 
 
     <?php 
-      require_once('../templates/footer.html');
+require_once('../templates/footer.html');
     ?>
   </body>
 </html>
