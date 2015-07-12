@@ -36,8 +36,14 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/arch-background-3-dark.jpg) no-repeat center center;
+    background: url(../img/arch-background-3-dark-v2.jpg) no-repeat center center;
     background-size: cover;
+}
+
+@media(max-width: 500px){
+  .intro-header{
+    background: #4A4A4A;
+  }
 }
 
 .intro-header-no-image{
