@@ -1,4 +1,5 @@
-A.R.C.H. of Florida
+A.R.C.H. Florida Halfway Houses 2015
+Web Design by KB Software Solutions
 
 ## Copyright and License
 
