@@ -12,7 +12,7 @@
     
     <link rel="icon" type="image/x-icon" href="../img/house-favicon.png"/>
 
-    <title>A.R.C.H. of Florida | West Palm Beach</title>
+    <title>ARCH Advantages</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -35,8 +35,6 @@ require_once('../templates/navbar.html');
     <div class="container contact">
       <div class="row contact">
         <h2 class="text-center section-heading">Services Page Coming Soon</h2>
-        <h2 class="text-center setion-heading">List of all ARCH highlights and advantages</h2>
-        <h2 class="text-center setion-heading">Should Answer the Question - WHY ARCH?</h2>
       </div>
       <div class="row"><a href="#top">Back to Top</a><br></div>
     </div>
