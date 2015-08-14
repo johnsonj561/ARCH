@@ -62,12 +62,34 @@
   align-content: center;
 }
 
+.arch-quote{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.center-image{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.message-received{
+ margin-top: 40px; 
+}
+
+.intro-message {
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+
 .network-name{
   font-weight: 800;
 }
 
 ul.list-inline.intro-social-buttons{
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 @media (max-width: 767px) {
@@ -126,6 +148,19 @@ ul.list-inline.intro-social-buttons{
   padding-top: 0px;
 }
 
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+.social-media-container{
+  margin-top: 50px; 
+  margin-bottom: 20px;
+}
 
 *!
 * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
@@ -161,5 +196,10 @@ body {
 }
 
 footer {
-  margin: 50px 0;
+  background-color: #fff;
+}
+
+.home-page-image-1{
+  margin-top: 50px;
+  
 }
